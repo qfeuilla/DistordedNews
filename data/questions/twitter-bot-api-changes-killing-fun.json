@@ -1,0 +1,42 @@
+[
+    [
+        "What is the main topic of the article?",
+        "Twitter discontinuing free access to its API"
+    ],
+    [
+        "Which popular Twitter bot is mentioned first in the article?",
+        "@MakeItAQuote"
+    ],
+    [
+        "How many followers does @MakeItAQuote have?",
+        "565,000"
+    ],
+    [
+        "What is Twitter's API used for by bots?",
+        "Replying, searching for text, and producing automated tweets"
+    ],
+    [
+        "What change is Twitter making regarding its API?",
+        "No longer supporting free access to it"
+    ],
+    [
+        "What is the potential negative side effect of this change?",
+        "Stopping good bots that are part of the fabric of Twitter"
+    ],
+    [
+        "What is the suggested API access cost mentioned by Elon Musk?",
+        "$100/month"
+    ],
+    [
+        "What is one example of a bot that tweets about newsworthy events?",
+        "@TrumpsAlert"
+    ],
+    [
+        "How many bots does John Emerson run?",
+        "24"
+    ],
+    [
+        "What typeof content do most of John Emerson's bots tweet?",
+        "Images from the collections of various art museums"
+    ]
+]

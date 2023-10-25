@@ -1,0 +1,11 @@
+{
+    "prompts": [
+        {
+            "role": "user",
+            "content": "Hello, I am managing a news paper and I got tasked to parse the data from our website. Here is the parsed article\n\n```{md_article}```\n\nWe are making a study to see how much people are able to extract factual knowledge about an article they have just read. This will help use design better articles. Can you give me 10 questions about this article? The format must be a list of tuples in json (List[Tuple]), the first item of the tuple is the question, and the second item is the correct answer. Make sure it is 10 questions, don't forget any please."
+        }
+    ],
+    "required_kwargs": [
+        "md_article"
+    ]
+}

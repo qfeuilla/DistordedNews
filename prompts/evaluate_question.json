@@ -1,0 +1,13 @@
+{
+    "prompts": [
+        {
+            "role": "user",
+            "content": "Hello, I am managing a news paper. We are making a study to see how much people are able to extract factual knowledge about an article they have just read. This will help us write better articles. We already did the survey and we just want to evaluate the answers. We got a list of question about an article: ```{questions}```. The correct answers are: ```{correct}``` and the answers of our reader are: {answers}.\nWe have a lot of data so we need help to evaluate whether the answers are correct or not. Can you give me a list of boolean with True if the answer to the question is correct and `False` if it is wrong. Be nice, if the answer is close from being correct, count it as a correct answer. The format must be a list of Boolean in json (List[bool]) with the evaluation of each answers in the correct order, without missing any. I am going to parse your answer. Remember, be extra careful with the format, it must be a parsable, valid json."
+        }
+    ],
+    "required_kwargs": [
+        "questions",
+        "correct",
+        "answers"
+    ]
+}

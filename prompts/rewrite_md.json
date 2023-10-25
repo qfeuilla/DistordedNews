@@ -1,0 +1,12 @@
+{
+    "prompts": [
+        {
+            "role": "user",
+            "content": "Hello, I am managing a news paper and I got tasked to parse the data from our website. Here is the parsed article\n\n```{md_article}```\n\nWe want to test to rewrite the text with theme using AI. This is an MVP, please do your best, we will evaluate the result and if it is good, we will use it in production, your work would be very valuable to adapt our content to all our customers. For this rewrite, please use the theme: \"{theme}\". Start directly with the news article, don't talk before or after, I am going to parse your answer. Don't mention anything, (like 'Here is the rewritten article for ...'), just give the rewritten article directly. Keep a journalistic tone and format, it must look like a new article!"
+        }
+    ],
+    "required_kwargs": [
+        "md_article",
+        "theme"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "prompts": [
+        {
+            "role": "user",
+            "content": "Hello, I am managing a news paper and I got tasked to parse the data from our website. Here is the parsed article\n\n```{md_article}```\n\nWe are making a study to see how much people are able to extract factual knowledge about an article they have just read. To make sure the questions aren't too hard, we want to have an AI baseline. Please answer all those questions: ```{questions}``` Give it your best shot, be brief and concise in your answers. Only give me your answer, don't talk before or after. The format must be a list of strings in json (List[str]) with the answer to each questions in order, without missing any, even if you don't know. I am going to parse your answer. Remember, be extra careful with the format, the string must all have double quote at the beginning and at the end or else it is not a valid json."
+        }
+    ],
+    "required_kwargs": [
+        "md_article",
+        "questions"
+    ]
+}
